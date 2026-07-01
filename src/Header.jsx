@@ -1,8 +1,12 @@
+import './Header.css'
 function Header() {
 return (
     <header>
         <img width="100" height="100" src="../src/assets/hero.png" alt="" />
-        <h1>My React website</h1>
+          <img src="../src/assets/react.svg" className="framework" alt="React logo" />
+          <img src="../src/assets/vite.svg" className="vite" alt="Vite logo" />
+          
+        <h1>My first React website</h1>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
