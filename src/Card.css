@@ -3,4 +3,20 @@
     border-radius: 8px;
     padding: 16px;
     margin: 16px;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(45, 193, 230, 0.801);
+}
+
+.Card .Card-image{
+    max-width: 25%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 8px rgba(36, 77, 73, 0.425);
+}
+
+.Card .Card-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
