@@ -2,7 +2,7 @@ function Food() {
 const foodItems = ['Pizza', 'Burger', 'Pasta', 'Salad'];
 
     return (
-        <div>
+        <div className="food-container">
             <h2>Food Items</h2>
             <ul>
                 {foodItems.map((item, index) => (
